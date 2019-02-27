@@ -1,0 +1,15 @@
+git init - Inicia a "tracking" em um repositório.
+ls - lista de arquivos do diretório.
+git status - mostra a situação atual do diretório.
+git ls-files - mostra os arquivos já "trakeados" pelo git.
+git add - adiciona arquivo ao repositório.
+git whatchanged - Verifica o arquivo que foi mudado em cada versão do respositório.
+git whatcanged -p  - Mostra o que foi alterado no repositório (linhas adicionadas ou excluidas).
+git pull -u - Da o comando pull trackeando o repositório local ao repositório remoto.
+git branch -t origin/repositirio - Cria o repositorio local já trackeado com o remoto.
+gir branch -b - Cria o repositorio local e dá checkout para ele.
+git branch -d - Deleta o branch
+git branch -r - Lista somente os branchs remotos.
+git branch -a - Lista todos os branchs local/remote.
+git checkout -t origin/repositorio - Cria branch local, mudança para essa nova branch criada, linka branch local com remoto.
+git fetch origin - Este comando verifica todas as atualizações que foram realizadas no repositório de atalho origin.
