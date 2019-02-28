@@ -13,3 +13,5 @@ git branch -r - Lista somente os branchs remotos.
 git branch -a - Lista todos os branchs local/remote.
 git checkout -t origin/repositorio - Cria branch local, mudança para essa nova branch criada, linka branch local com remoto.
 git fetch origin - Este comando verifica todas as atualizações que foram realizadas no repositório de atalho origin.
+git rebase repositorio-refernecia - Atualiza o repositório atual com o de referênncia (Caso haja commits feitos anteriormente que não foram puxados para o repositório).
+git merge repositório - Faz merge no repositório atual com o repositório selecionado.
