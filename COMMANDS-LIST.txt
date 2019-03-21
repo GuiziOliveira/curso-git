@@ -15,6 +15,9 @@ git checkout -t origin/repositorio - Cria branch local, mudança para essa nova b
 git fetch origin - Este comando verifica todas as atualizações que foram realizadas no repositório de atalho origin.
 git rebase repositorio-refernecia - Atualiza o repositório atual com o de referênncia (Caso haja commits feitos anteriormente que não foram puxados para o repositório).
 git merge repositório - Faz merge no repositório atual com o repositório selecionado.
+git reset - Com este comando, as alterações são removidas do histórico local de commits, do index, mas não doworking directory`.
+git reset --soft - Com este comando, as alterações são removidas do histórico local de commits, mas não são removidas do index.
+git reset --hard - Com este comando, as alterações são removidas do histórico local de commits e também tanto do index quanto do working directory, permanentemente.
 git reset HEAD - retorna alterações do commit anterior (se as alterações não foram comitadas ainda).
 git reset código do commit - retorna as alterações para um commit especifico (mesmo já estando commitado) levando para estado de modificação.
 git revert código do commit - cria commit para desfazer o commit selecionado.
