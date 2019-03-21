@@ -15,3 +15,14 @@ git checkout -t origin/repositorio - Cria branch local, mudança para essa nova b
 git fetch origin - Este comando verifica todas as atualizações que foram realizadas no repositório de atalho origin.
 git rebase repositorio-refernecia - Atualiza o repositório atual com o de referênncia (Caso haja commits feitos anteriormente que não foram puxados para o repositório).
 git merge repositório - Faz merge no repositório atual com o repositório selecionado.
+git reset HEAD - retorna alterações do commit anterior (se as alterações não foram comitadas ainda).
+git reset código do commit - retorna as alterações para um commit especifico (mesmo já estando commitado) levando para estado de modificação.
+git revert código do commit - cria commit para desfazer o commit selecionado.
+git stash - Guarda alterações que ainda não foram commitadas.
+git stash list - Verifica o que está em stash.
+git stash pop - Retorna alterações do ultimo stash salvo.
+git stash apply código do stash - Retorna stash que foi selecionado.
+git stash drop - Remove alteração temporária.
+git bisect start - Inicia modo bisect (busca de commit especifico).
+git bisect bad código do commit - Indica qual commit não está bom, para que ele filtre antes disso.
+git bisect good código do commit - Indica qual commit está bom, para que ele filtre a partir dele.
