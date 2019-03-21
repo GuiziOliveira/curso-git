@@ -26,3 +26,4 @@ git stash drop - Remove alteração temporária.
 git bisect start - Inicia modo bisect (busca de commit especifico).
 git bisect bad código do commit - Indica qual commit não está bom, para que ele filtre antes disso.
 git bisect good código do commit - Indica qual commit está bom, para que ele filtre a partir dele.
+git fetch origin - Este comando verifica todas as atualizações que foram realizadas no repositório de atalho origin.
